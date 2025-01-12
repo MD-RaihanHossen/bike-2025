@@ -5,19 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- daisyUi and tailwind -->
+    <!-- daisyUi and tailwind link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- style css adding link-->
+    <link rel="stylesheet" href="style/style.css">
 
     <title>Bike-2025</title>
 </head>
 
-<body>
-<header>
+<body class="bg-white w-full h-full">
+<header class="my-5">
     <nav>
-        <div>
-            <h1>i am ready to start my junnay</h1>
+        <div class="max-w-5xl m-auto ">
+          <div class="navbar justify-between">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a>Home</a></li>
+        <li><a>Shope</a></li>
+        <li><a>News</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl text-black font-extrabold md:text-3xl">Bike Dekho</a>
+  </div>
+  <div class="navbar-center hidden lg:flex text-black">
+    <ul class="menu menu-horizontal px-1">
+        <li><a>Home</a></li>
+        <li><a>Shope</a></li>
+        <li><a>News</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+    <div class="navbar-end w-auto">
+        <a class="btn btn-error px-8 py-0.5 text-white font-bold">Login</a>
+      </div> 
+  </div>
+  
+</div>
         </div>
     </nav>
 </header>
