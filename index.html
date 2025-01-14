@@ -12,7 +12,14 @@
   <!-- style css adding link-->
   <link rel="stylesheet" href="style/style.css">
 
-  <title>Bike-2025</title>
+  <!-- goole font adding -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Niconne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <title>Cox-Bazar photos</title>
   <!-- custom styel -->
   <script>
     tailwind.config = {
@@ -21,6 +28,8 @@
           colors: {
             'bike-primary': '#E76F51',
             'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
+            'paimary-font' : 'serif',
+            'paimary-style' : 'Niconne'
 
           }
         }
@@ -49,7 +58,7 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl text-black font-extrabold md:text-3xl">Bike Dekho</a>
+            <a class="btn btn-ghost text-xl text-black font-extrabold md:text-3xl px-0">Cox-Bazar photos</a>
           </div>
           <div class="navbar-center hidden lg:flex text-black">
             <ul class="menu menu-horizontal px-1">
@@ -67,23 +76,23 @@
       </div>
     </nav>
     <!-- navbar bannar start -->
-    <div class="carousel w-full bg-bike-primary-bg md:h-[550px]">
+    <div class="carousel w-full bg-bike-primary-bg md:h-[550px] py-2">
       <div id="slide1" class="carousel-item relative w-full">
-        <div class="flex flex-col md:flex-row  gap-20 p-0 items-center">
-          <div class="space-y-3 md:space-y-7 flex-1 p-5 p-5 md:pl-24  ">
-            <h1 class=" text-2xl md:text-6xl text-black font-bold">Ride-on R15 V4 <br> with Smile</h1>
-            <p>Amet minim mollit non deserunt ullamco
-              est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+        <div class="flex flex-col md:flex-row gap-2 md:gap-20 p-0 items-center px-3 md:px-5">
+          <div class="space-y-3 md:space-y-7 flex-1 lg:pl-16 xl:pl-24  ">
+            <h1 class=" text-4xl md:text-5xl lg:text-6xl text-black font-bold primary-style ">Raihan Hossen <br> without Healer</h1>
+            <p class="primary-font">
+              ami khubi valo akta sele jar kono kharap ovbash nei and ami khubi vromon pipashu akta sele jar new jaiga dekhte onek valo lage.
             </p>
-            <button class="btn btn-error py-1 px-3 md:py-3 md:px-7 text-white">Purchase</button>
+            <button class="btn btn-error py-0.5 px-2 md:py-3 md:px-7 text-white">Visit Now</button>
           </div>
           <div class="flex-1 ">
-            <img class=" md:w-[400px] w-80" src="images/slider/bike1.png" alt="">
+            <img class=" lg:w-[400px] sm:w-80 rounded-md " src="images/Raihan-photos/raihan1.jpeg" alt="">
           </div>
         </div>
         <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide4" class="btn btn-circle">❮</a>
-          <a href="#slide2" class="btn btn-circle">❯</a>
+          <a href="#slide4 " class="btn   btn-circle-small ">❮</a>
+          <a href="#slide2 " class="btn   btn-circle-small ">❯</a>
         </div>
       </div>
       <div id="slide2" class="carousel-item relative w-full">
@@ -93,7 +102,7 @@
             <p>Amet minim mollit non deserunt ullamco
               est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
             </p>
-            <button class="btn btn-error py-1 px-3 md:py-3 md:px-7 text-white">Purchase</button>
+            <button class="btn btn-error py-0.5 px-2 md:py-3 md:px-7 text-white">Purchase</button>
           </div>
           <div class="flex-1 ">
             <img class="md:w-[400px] w-80" src="images/slider/bike2.png" alt="">
